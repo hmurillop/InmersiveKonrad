@@ -10,7 +10,7 @@ module.exports = {
        clean:true
    },
    plugins:[
-      new HtmlWebpackPlugin({tittle:"My Webpack",template:"src/index.html"}),
+      new HtmlWebpackPlugin({tittle:"CryptoWebPack",template:"src/index.html"}),
       new MiniCssExtractPlugin()
     ],
    devServer:{

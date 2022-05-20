@@ -1,3 +1,73 @@
+body, html {
+    height: 100%;
+}
+
 h1{
     text-align: center;
+}
+
+
+// imported from old project
+
+
+.nav{
+    display: flex;
+    position: fixed;
+    top:0;
+    left: 0;    
+    width: 100%;
+    background-color: aliceblue;
+}
+.flex-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.logo-image{
+    width: 50%;
+    padding-top: 1em;
+    padding-left: 1%;
+}
+
+.nav ul {   
+    list-style-type: none; 
+    text-indent: 0;
+    padding-right: 2%;
+}
+.nav ul > li{
+    border: 4px outset #808EA4;
+    padding: 0 1%;
+}
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-image > img{    
+    height: 2em;
+}
+section.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    
+    justify-content: space-around;
+    
+}
+
+div.card{    
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color:whitesmoke;    
+    width: calc(25% - 2em);
+    margin-top: 2em;
+
+}
+
+.card.img{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1257px-Ethereum_logo_2014.svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
