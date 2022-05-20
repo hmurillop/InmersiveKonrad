@@ -6,3 +6,31 @@
     width: 100%;
     background-color: aliceblue;
 }
+.flex-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.logo-image{
+    width: 50%;
+    padding-top: 1em;
+    padding-left: 1%;
+}
+
+.nav ul {   
+    list-style-type: none; 
+    text-indent: 0;
+    padding-right: 2%;
+}
+.nav ul > li{
+    border: 4px outset #808EA4;
+    padding: 0 1%;
+}
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-image > img{    
+    height: 2em;
+}

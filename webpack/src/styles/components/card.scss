@@ -1,0 +1,23 @@
+section.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;    
+    justify-content: space-around;
+    
+}
+div.card{    
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color:whitesmoke;    
+    width: 100%;
+    margin-top: 2em;
+}
+
+//@mixin width: calc(100% - 0.5em);
+.card.img{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1257px-Ethereum_logo_2014.svg.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
